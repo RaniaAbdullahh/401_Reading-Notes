@@ -26,11 +26,10 @@ Extension: the end of the file path pre-pended with a period (.) used to indicat
  ```reader.readline(5)```
  ### Iterating Over Each Line in the File
  
- ```
- while line != '':  
+ ```while line != '':  
   print(line, end='')
   line = reader.readline()
-  ```
+ ```
   
  ## Python Exceptions
  exception error. This type of error occurs whenever syntactically correct Python code results in an error. The last line of the message indicated what type of exception error you ran into.
@@ -45,12 +44,13 @@ if x > 5:
 We ```assert``` that a certain condition is met. If this condition turns out to be ```True```, then that is excellent! The program can continue. If the condition turns out to be False, you can have the program throw an AssertionError ```exception```.
 ### The try and except Block: Handling Exceptions
 The try and except block in Python is used to catch and handle exceptions. Python executes code following the try statement as a “normal” part of the program. The code that follows the except statement is the program’s response to any exceptions in the preceding try clause.
-```
+
+
 try:
     linux_interaction()
 except:
     pass
-```    
+   
 
 - raise allows you to throw an exception at any time.
 - assert enables you to verify if a certain condition is met and throw an exception if it isn’t.
